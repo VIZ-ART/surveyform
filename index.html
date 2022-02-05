@@ -1,0 +1,99 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Student Survey</title>
+  <link rel="stylesheet" href="formstyle.css" type="text/css">
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Student Survey</h1>
+    <p id="description" class="description text-center">
+      Thanks for taking part in survey conducted by Vishal Vidyanand
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Phone
+      </label>
+      <input
+        type="tel"
+        name="phone"
+        id="number"
+        class="form-control"
+        placeholder="Enter your phone"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <p>Which is your year of study?</p>
+      <label>
+        <input
+          name="year"
+          value="1st-year"
+          type="radio"
+          class="input-radio"
+          checked
+        />1st year</label
+      >
+      <label>
+        <input
+          name="year"
+          value="2nd-year"
+          type="radio"
+          class="input-radio"
+        />2nd year</label
+      >
+
+      <label
+        ><input
+          name="year"
+          value="3rd-year"
+          type="radio"
+          class="input-radio"
+        />3rd year</label
+      >
+
+      <label
+        ><input
+          name="year"
+          value="4th-year"
+          type="radio"
+          class="input-radio"
+        />4th year</label
+      >
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
